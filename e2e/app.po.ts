@@ -1,3 +1,5 @@
+import { browser, element, by } from 'protractor/globals';
+
 export class BauhausLabPage {
   navigateTo() {
     return browser.get('/');

@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: #000;
+	font-family: "Helvetica", sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+p {
+	font-weight: lighter;
+}
+
+.container {
+	padding-top: 80px;
+}
+
+@media (max-width: 780px) {
+	.container {
+	padding-top: 40px;
+	}
+}
+
+.btn-start {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	color: #000;
+	background-color: #2175FF;
+	margin-top:  20px;
+	height: 40px;
+	vertical-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.btn-start:hover {
+	background-color: #1C65DD;
+	text-decoration: none;
+	color: #000;
+}
+
+/* Mother Tongue */
+
+.m-tongue {
+	font-size: 120px;
+	font-weight: bold;
+}
+
+/* Age */
+
+.age {
+	width: 150px;
+	height: 150px;
+	background-color: #2175FF;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto; 
+	color: #000;
+	font-size: 100px;
+	font-weight: bold;
+	padding-top: 10px;
+	position: relative;
+}
+
+.line {
+	width: 100%;
+	height: 5px;
+	background-color: #11469D;
+	position: absolute;
+	top: 75px;
+}
+
+/* Weather */
+
+.slider{
+	width: 250px;
+	height: 35px;
+	background-color: #1663FF;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.slider-hot {
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	background-color: #FF3F3C;
+}
+
+/* Cities */
+
+.img-cities {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 990px) {
+	.img-cities {
+		width: 90%;
+	}
+}
+
+@media (max-width: 767px) {
+	.img-cities {
+		width: 50%;
+	}
+}
+
+/* Figures */
+
+.square, .circle, .triangle {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	display: block;
+
+}
+
+.square {
+	width: 150px;
+	height: 150px;
+	background-color: #2175FF;
+}
+
+
+.circle {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-color: #FF504D;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid #FFD300;
+}
+
+
+@media (max-width: 550px) {
+	.square, .circle {
+		width: 70px;
+		height: 70px;
+	}
+
+	.triangle {
+		width: 0;
+		height: 0;
+		border-left: 35px solid transparent;
+		border-right: 35px solid transparent;
+		border-bottom: 70px solid #FFD300;
+
+	}
+}
+
+/* Dude */
+
+.gropius {
+	width: 200px;
+}
+
+.dude-option {
+	display: block;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 22px;
+}
+
+.dude-option span {
+	color: #FF504D;
+	font-weight: bold;
+}
+
+.dude-option:hover {
+	color: #FF504D;
+	text-decoration: none;
+}
+
+/* Wishlist */
+
+.object {
+	width: 150px;
+	margin-top: 20px;
+}
+
+@media (max-width: 550px) {
+	.object {
+	width: 100px;
+	}
+}
+
+.cart{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: #D1D6DA;
+}
+
+.icn-cart {
+	margin-top: 30px;
+}
+
+/* Parties */
+
+.party  {
+	margin-top: 30px;
+}
+
+.party p {
+	margin-top: 20px;
+}
+
+/* Poster */
+
+.poster-ctn{
+	padding-top: 0;
+}
+
+.poster {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	background-image: url("img/poster/img-background.png");
+	background-repeat: repeat-y repeat-x;
+	height:100vh;
+	position: relative;
+}
+
+@media (max-width: 995px) {
+	.poster {
+		width: 70%;
+	}
+}
+
+@media (max-width: 660px) {
+	.poster {
+		width: 90%;
+	}
+}
+
+@media (max-width: 480px) {
+	.poster {
+		width: 95%;
+	}
+}
+
+.poster img {
+	position: absolute;
+	display: block;
+}
+
+.rectangle {
+	width: 100px;
+	height: 100px;
+	background-color: #2175FF;
+	position: absolute;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.poster .age {
+	width: 100px;
+	height: 100px;
+	font-size: 60px;
+	padding-top: 10px;
+	position: absolute;
+}
+
+.poster .age .line {
+	top: 50px;
+}
+
+.btns-poster {
+	position: fixed;
+	right: 2%;
+	bottom: 2%;
+}
+
+.btns-poster ul li {
+	list-style-type: none;
+
+}
+
+.btns-poster ul li:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.btns-poster ul li a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: #2175FF;
+	border-radius: 50%;
+	padding-top: 12px;
+}
+
+.btns-poster ul li a:hover {
+	background-color: #1C65DD;
+}
